@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Thu Aug 25 14:11:48 2016
+# Process ID: 13036
+# Current directory: D:/USA/video/Verilog_Vivado_FIFO/prj_FIFO/prj_FIFO.runs/fifo_test_synth_1
+# Command line: vivado.exe -log fifo_test.vds -mode batch -messageDb vivado.pb -notrace -source fifo_test.tcl
+# Log file: D:/USA/video/Verilog_Vivado_FIFO/prj_FIFO/prj_FIFO.runs/fifo_test_synth_1/fifo_test.vds
+# Journal file: D:/USA/video/Verilog_Vivado_FIFO/prj_FIFO/prj_FIFO.runs/fifo_test_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fifo_test.tcl -notrace

@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_base.sv"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dpdistram.sv"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dprom.sv"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sdpram.sv"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_spram.sv"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sprom.sv"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_tdpram.sv"
+verilog fifo_generator_v13_1_0  "../../../prj_FIFO.ip_user_files/ipstatic/fifo_generator_v13_1_0/simulation/fifo_generator_vlog_beh.v"
+verilog fifo_generator_v13_1_0  "../../../prj_FIFO.ip_user_files/ipstatic/fifo_generator_v13_1_0/hdl/fifo_generator_v13_1_rfs.v"
+verilog xil_defaultlib  "../../../prj_FIFO.srcs/sources_1/ip/fifo_test/sim/fifo_test.v"
+verilog xil_defaultlib  "../../../prj_FIFO.srcs/sim_1/new/fifo_test_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
